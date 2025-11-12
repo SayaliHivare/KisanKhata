@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | KisanKhata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fdf9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h1 {
+      color: #2e7d32;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: #388e3c;
+      margin-top: 2rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .block {
+      background-color: #e8f5e9;
+      border-left: 6px solid #66bb6a;
+      padding: 1rem;
+      margin: 1.5rem 0;
+      border-radius: 6px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #c8e6c9;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .cta button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .cta button:hover {
+      background-color: #1b5e20;
+    }
+
+    footer {
+      background-color: #e0f2f1;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About KisanKhata</h1>
+    <p>Smart Farm Expense Tracker for Every Farmer</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>What is KisanKhata?</h2>
+      <p><strong>KisanKhata</strong> is a web-based platform designed to help farmers manage their finances with ease. It allows users to log daily input expenses, track crop yields, and calculate net profits — all in one place. With multilingual support and smart alerts, KisanKhata makes farming more data-driven and profitable.</p>
+    </section>
+
+    <section class="block">
+      <h2>Why Farmers Love KisanKhata</h2>
+      <p>Managing farm finances can be tough. Paper records get lost, expenses pile up, and it's hard to know which crops are profitable. KisanKhata solves this by offering a digital khata (ledger) that’s simple, accessible, and insightful.</p>
+    </section>
+
+    <section>
+      <h2>Key Advantages</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>📊 Profit Tracking</h3>
+          <p>Automatically calculate net profit by comparing expenses and yield revenue.</p>
+        </div>
+        <div class="card">
+          <h3>🌐 Multilingual Support</h3>
+          <p>Use the platform in Hindi, Marathi, or English — your choice.</p>
+        </div>
+        <div class="card">
+          <h3>🔔 Smart Alerts</h3>
+          <p>Get notified about unusual spending, low profits, and reminders to log data.</p>
+        </div>
+        <div class="card">
+          <h3>📈 Visual Insights</h3>
+          <p>Understand your farm’s performance with clear graphs and trends.</p>
+        </div>
+        <div class="card">
+          <h3>📤 Easy Reporting</h3>
+          <p>Export your farm’s financial summary in PDF or Excel format.</p>
+        </div>
+        <div class="card">
+          <h3>🔒 Secure & Private</h3>
+          <p>Your data is safe, encrypted, and only accessible to you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Grow with KisanKhata?</h2>
+      <p>Join hundreds of farmers who are transforming their farms with smart financial tracking.</p>
+      <button onclick="window.location.href='signup.html'">Get Started</button>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 KisanKhata. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
